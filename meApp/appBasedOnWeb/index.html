@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chess Game</title>
+	/<style type="text/css">
+		*{
+			marfin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			front-family: Arial, Helvetica, sans-serif;
+			linr-height: 1.6;
+		}
+		ul {
+			list-style: none;
+		}
+		ul li{
+			padding: 5px;
+			background: #f4f4f4;
+			margin: 5px 0;
+		}
+		header{
+			background: #f4f4f4;
+			padding: 1rem;
+			text-align: center;
+		}
+		.container{
+			margin:auto;
+			width:500px;
+			overflow: auto;
+			padding:3rem 2rem;
+		}
+		#my-form{
+			padding: 2rem;
+			background: #f4f4f4;
+		}
+
+		#my-form input[type='text'] {
+			width: 100%;
+			padding: 8px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+		#my-form input[type='Password'] {
+			width: 100%;
+			padding: 8px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+
+		.btn{
+			display: block;
+			width: 100%;
+			padding: 10px 15px;
+			border: 0;
+			background: #333;
+			color: #fff;
+			border-radius: 5px;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1> Chass Game 1.0</h1>
+	</header>
+
+	<section class="container">
+		<form id="my-form">
+			<h1>Login</h1>
+			<div class="msg"></div>
+			<div>
+				<label>Name</label>
+				<input type="text" id="name" name="">
+			</div>
+
+			<div>
+				<label>Password</label>
+				<input type="Password" id="pw" name="">
+			</div>
+
+			<input class="btn" type="submit" name="" value="Submit">
+
+		</form>
+		<ul id="users">
+			<li>Jack:abc123</li>
+			<li>Jerry:123345</li>
+			<li>Jason:aabbcc</li>
+		</ul>
+
+	</section>
+
+</body>
+</html>
